@@ -7,6 +7,9 @@ POSTERIZE=4
 QUALITY=0-5
 # ####################
 
+# ToDo
+# zinity OR other GUI system
+
 ffmpeg -i *.mp4 -an -r $FPS %04d.png 
 mogrify -resize ${WIDTH}x *.png
 pngquant --posterize=$POSTERIZE --quality=$QUALITY *.png
