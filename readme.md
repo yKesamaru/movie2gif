@@ -24,7 +24,8 @@
 # Author
 yKesamaru
 # License
-MIT license
-以下それぞれのライセンス
-mark_heart.png いらすとや様
-Positive.ogg /usr/share/sounds/ubuntu/notifications/
+MIT license  
+  
+以下それぞれのライセンス  
+- mark_heart.png いらすとや様  
+- Positive.ogg /usr/share/sounds/ubuntu/notifications/  
