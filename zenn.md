@@ -98,20 +98,22 @@ QUALITY=0-5
 # ####################
 ```
 ## Icon
-man_55.pngは[いらすとや様該当ページ](https://3.bp.blogspot.com/-1LXBe86Lrs8/Vf-artgLU6I/AAAAAAAAyJE/i5zNuMDWXWo/s800/icon_business_man13.png)から個別にダウンロードして下さい。
+man_55.pngは[いらすとや様該当ページ](https://3.bp.blogspot.com/-1LXBe86Lrs8/Vf-artgLU6I/AAAAAAAAyJE/i5zNuMDWXWo/s800/icon_business_man13.png)から個別にダウンロードして下さい。  
+https://3.bp.blogspot.com/-1LXBe86Lrs8/Vf-artgLU6I/AAAAAAAAyJE/i5zNuMDWXWo/s800/icon_business_man13.png  
+
 # Reference
-- [Zenity Manual](https://help.gnome.org/users/zenity/stable/index.html.en)
-- [pngquant](https://pngquant.org/)公式
-- [【じーろぐ】減色ツールPngquantの仕組みと最適パラメータを探る](https://zlog.hateblo.jp/entry/2019/05/05/pngquant)
-- [【Zenn】github用のアニメーションgifまわりあれこれ](https://zenn.dev/ykesamaru/articles/52653d248e854d)
+https://help.gnome.org/users/zenity/stable/index.html.en
+https://pngquant.org/
+https://zlog.hateblo.jp/entry/2019/05/05/pngquant
+https://zenn.dev/ykesamaru/articles/52653d248e854d
 # Author
 yKesamaru
 # License
 MIT license  
   
 それ以外のライセンス  
-- Positive.ogg: [Nathaniel McCallum](https://launchpad.net/ubuntu/bionic/+source/ubuntu-sounds/+copyright)
+https://launchpad.net/ubuntu/bionic/+source/ubuntu-sounds/+copyright
   - Creative Commons Attribution-ShareAlike License
   - /usr/share/sounds/ubuntu/notifications/  
 # Github
-[![yKesamaru/movie2gif - GitHub](https://gh-card.dev/repos/yKesamaru/movie2gif.svg?fullname=)](https://github.com/yKesamaru/movie2gif)
+https://github.com/yKesamaru/movie2gif
