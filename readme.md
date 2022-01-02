@@ -1,8 +1,8 @@
 ![bannar](other/bannar.png)
 # MOVIE2GIF
 ## これは何？
-動画ファイルからアニメーションgifファイルを作成します。  
-デフォルトでは5fps, 横幅600pxに調整します。  
+動画ファイルからアニメーションGIFファイルを作成します。  
+横幅600pxの大きさで出来上がるGIFファイルのサイズをギリギリまで最小化します。  
 - ファイル選択ダイアログ
 ![](other/select.png)
 - 進行状況をプログレスバーで表示  
@@ -14,14 +14,19 @@
 ![](other/dir.png)  
 `git clone`すれば初めからこの様になります。  
 `make_animation_gif.sh`に実行権限を与えて下さい。
+```bash:Requirementsのインストール
+sudo apt update
+sudo apt upgrade -y
+sudo apt install ffmpeg imagemagick pngquant pulseaudio-utils libnotify-bin zenity
+```
 # Usage
 `make_animation_gif.sh`をダブルクリックするか仮想端末から起動して下さい。
 # Requirements
 - ffmpeg
 - imagemagick
 - pngquant
-- paplay
-- notify-send
+- paplay(pulseaudio-utils)
+- notify-send(libnotify-bin)
 - zenity
 # Setting
 ## Parameters
