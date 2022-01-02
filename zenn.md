@@ -1,23 +1,22 @@
-![bannar](other/bannar.png)
-# MOVIE2GIF
-## これは何？
+![bannar](https://raw.githubusercontent.com/yKesamaru/movie2gif/master/other/bannar.png)
+# これは何？
 動画ファイルからアニメーションgifファイルを作成します。  
 デフォルトでは5fps, 横幅600pxに調整します。  
   
 **…そこら辺に転がってるって？**  
   
 - 進行状況をプログレスバーで表示  
-![](other/progress_bar.png)  
+![](https://raw.githubusercontent.com/yKesamaru/movie2gif/master/other/progress_bar.png)  
 - 終了を音と通知ダイアログでお知らせ  
-![](other/dialog.png)  
+![](https://raw.githubusercontent.com/yKesamaru/movie2gif/master/other/dialog.png)  
   
-可愛いおじさんが終了をお知らせしてくれます(震え声)  
+可愛いおじさんが終了をお知らせしてくれます。  
 再配布禁止なのでおじさんアイコンは個別にダウンロードして下さい…  
-![](other/yurusu.jpg)  
+![](https://raw.githubusercontent.com/yKesamaru/movie2gif/master/other/yurusu.jpg)  
 ありがとうございます。
 # Zenityのprogress dialogってどう書く？
-シェルスクリプトにGUIをつけるにはZenityが簡単ですが、プログレスバーの進捗バーはあまり情報がない印象です。[GNOME HELP](https://help.gnome.org/users/zenity/stable/progress.html.en)によると`echo`を使うと良さそうです。  
-キャンセルボタンは必要ありませんので`--no-cancel`を指定します。  
+シェルスクリプトにGUIならZenityですが、プログレスバーの動かし方は知りませんでした。[GNOME HELP](https://help.gnome.org/users/zenity/stable/progress.html.en)を読んでみるとどうやら`echo`を使うと良さそうです。  
+
 ```bash
 CWD=$(pwd)
 (
@@ -41,9 +40,9 @@ zenity --progress \
     --auto-close \
     --no-cancel
 ```
+キャンセルボタンは必要ありませんので`--no-cancel`を指定します。  
 # ファイルサイズをなるべく小さく！
-アニメーションgifはサイズが大きいです。  
-通常元の動画ファイルよりもサイズが大きくなります。貼り付けたい場合困ります。そこで以下の対策をしました。
+アニメーションgifはサイズが大きいです。だいたい元の動画ファイルよりも大きくなります。貼り付けたい場合困ります。そこで以下の対策をして減量化しました。
 - 5fps
 - width 600pxリサイズ
 - pngquantによる最適化  
@@ -57,9 +56,11 @@ pngquantによる最適化は[【じーろぐ】減色ツールPngquantの仕組
   --strip           remove optional metadata (default on Mac)
 ```
 pngquantは優秀でちょっとやそっとでは画質が荒くなりません。デフォルトの設定では最低値にしてその分サイズを小さくしています。荒いな、と思ったら設定を上げてみると良いと思います。  
+# デスクトップ通知はzenityかnotify-sendか
+
 # Installation
 新しいフォルダを作り、そこにファイルを置いて下さい。  
-![](other/dir.png)  
+![](https://raw.githubusercontent.com/yKesamaru/movie2gif/master/other/dir.png)  
 `git clone`すれば初めからこの様になります。  
 `make_animation_gif.sh`に実行権限を与えて下さい。
 # Usage
@@ -109,3 +110,4 @@ MIT license
   - Creative Commons Attribution-ShareAlike License
   - /usr/share/sounds/ubuntu/notifications/  
 # Github
+[![yKesamaru/movie2gif - GitHub](https://gh-card.dev/repos/yKesamaru/movie2gif.svg?fullname=)](https://github.com/yKesamaru/movie2gif)
