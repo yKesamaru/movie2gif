@@ -6,6 +6,8 @@
   
 **え？なんの再発明？**  
 - 可能な限りの減量化
+- ファイル選択ダイアログ
+![](https://raw.githubusercontent.com/yKesamaru/movie2gif/master/other/select.png)
 - 進行状況をプログレスバーで表示  
 ![](https://raw.githubusercontent.com/yKesamaru/movie2gif/master/other/progress_bar.png)  
 - 終了を音と通知ダイアログでお知らせ  
