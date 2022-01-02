@@ -1,4 +1,5 @@
-# MOVIE2ANIMATION_GIF
+![bannar](other/bannar.png)
+# MOVIE2GIF
 ## これは何？
 動画ファイルからアニメーションgifファイルを作成します。  
 デフォルトでは5fps, 横幅600pxに調整します。  
