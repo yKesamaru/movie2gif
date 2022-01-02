@@ -46,6 +46,12 @@ QUALITY=0-5
 ```
 ## Icon
 man_55.pngは[いらすとや様該当ページ](https://3.bp.blogspot.com/-1LXBe86Lrs8/Vf-artgLU6I/AAAAAAAAyJE/i5zNuMDWXWo/s800/icon_business_man13.png)から個別にダウンロードして下さい。
+# サイズ比較
+## 最適化前 24.7 MiB
+![](other/最適化なし.gif)
+## 最適化後 13.7 MiB
+![](other/最適化あり.gif)
+## 55.4%のサイズダウン！
 # Reference
 - [pngquant](https://pngquant.org/)公式
 - [Icon Naming Specification](https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html)
